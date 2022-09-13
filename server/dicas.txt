@@ -1,0 +1,27 @@
+- npm init -y 
+pula as perguntas do iniciar do projeto
+
+-  "type": "module",
+adicione essa opção no package para utilizar o import
+e muda o nome do arquivo para mjs
+
+-  npm install typescript -D
+
+- no package adicione   
+  "scripts": {
+    "start": "node src/server.mjs",
+    "build": "tsc" // serve para converter o codigo javascript para typescript
+  },
+
+- instale o "npx tsc --init" -  cria um arquivo de configuração do typescript
+
+- quando rodamos o comando "npm run build" o aplicativo monta um arquivo javascript
+
+- no arquivo de configuração do typescript mude "module": "ES2022" para o que esta ai
+descomente tambem "rootDir": "./src", e coloque como diretorio raiz o src
+descomente "outDir": "./build",  e adicione esta pasta para que a build seja gerada em outra pasta
+descomente "moduleResolution": "node", para importações 
+
+- instale os types do express npm install @types/express -D
+
+- "npm i ts-node-dev -D" é como se fosse o nodemon

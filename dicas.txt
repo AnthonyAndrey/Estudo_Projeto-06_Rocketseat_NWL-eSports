@@ -1,0 +1,4 @@
+- abra o CMD "expo init mobile"
+ depois de instalar entre na pasta
+
+- "expo start"

@@ -1,0 +1,3 @@
+vitejs -  ferramenta para buidar o frontend
+- para utilizar "npm create vite@latest"
+ele cria o frontend de forma mais rapida
